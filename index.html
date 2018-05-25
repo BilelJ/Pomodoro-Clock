@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Pomodoro Clock</title>
+	<meta name="description" content="The Pomodoro Clock, powered by ProgressBar JS">
+	<meta name="keywords" content="Pomodoro Clock,Clock,Pomodoro,Timer">
+	<meta name="author" content="Bilel Jribi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="The Pomodoro Clock" />
+	<meta property="og:description" content="The Pomodoro Clock, powered by ProgressBar JS" />
+	<meta property="og:image" content="src.png" />
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="progressbar.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+	<h1>The Pomodoro Clock</h1>
+	<span>Session length</span>
+	<input type="number" min="1" id="session" value="25">
+	<span>Break length</span>
+	<input type="number" min="1" id="break" value="5">
+	<input type="button" value="Start Now!" id="start">
+	<div id="container"></div>
+	<p>Developed by <a href="https://www.bileljribi.tn">Bilel Jribi</a></p>
+	<p>This tool is powered by <a href="https://kimmobrunfeldt.github.io/progressbar.js/">ProgressBar JS</a></p>
+
+</body>
+<script src="script.js"></script>
+</html>

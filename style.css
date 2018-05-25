@@ -1,0 +1,57 @@
+html{
+background: #83a4d4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: "Century Gothic";
+height: 100%;
+}
+body{
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.progressbar-text{
+user-select: none;
+background: none;
+z-index: -2;
+}
+input,span{
+	display: inline;
+	margin: 3px;
+	width: 110px;
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	font-weight: bold;
+	margin: 5px;
+}
+a,a:hover, a:active{
+	color: red;
+}
+h1{
+	text-align: center;
+	margin-top: 0;
+}
+input[type="button"]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+input[type="button"]:hover{
+	background-color:rgb(42, 112, 44);
+}
